@@ -11,8 +11,6 @@ header {
 
 div.header {
   display: inline-block;
-  /* background-color: #010626; */
-  /* background-image: linear-gradient(#021859,#010626);/ */
 }
 
 div.header-logo-bc {
@@ -40,16 +38,13 @@ img.logo-bc {
 }
 
 div.title-logo-bc {
-  /* position: absolute; */
   transform: translateY(20%);
-  /* top: 27%; */
-  /* left: 15%; */
 }
 
 h1.text-logo-bc {
   text-transform: uppercase;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   color: #F282A7;
   padding-right: .5rem;
   padding-left: .5rem;
@@ -60,6 +55,12 @@ a.title-head {
   font-size: 20px;
   font-family: 'Josefin Sans', sans-serif;
   color: #F282A7;
+
+}
+
+a.title-head:hover {
+  color:#BDF2E3;
+  transition: 0.5s;
 }
 
 li.item-nav {
@@ -87,7 +88,7 @@ div.title-chakra {
 
 
 div.drop-head {
-  background: transparent;
+  background: #021859;
   border-radius: 5%;
   box-shadow: 0;
 }
@@ -95,7 +96,13 @@ div.drop-head {
 a.drop-text {
   color: #F282A7;
   font-family: 'Josefin Sans', sans-serif;
+}
 
+
+a.drop-text:hover {
+  color:#BDF2E3;
+  background-color: #010626;
+  transition: 0.5s;
 }
 
 /*nav-bar plantas*/
