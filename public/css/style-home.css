@@ -21,7 +21,6 @@ div.header-logo-bc {
 div.image-logo-bc,
 div.title-logo-bc {
   display: inline-block;
-  /* float: left; */
 }
 
 div.image-logo-bc {
@@ -86,7 +85,6 @@ div.title-chakra {
   display: inline-block;
 }
 
-
 div.drop-head {
   background: #021859;
   border-radius: 5%;
@@ -96,6 +94,10 @@ div.drop-head {
 a.drop-text {
   color: #F282A7;
   font-family: 'Josefin Sans', sans-serif;
+}
+
+a.drop-text:hover {
+  background-color: #BDF2E3;
 }
 
 
@@ -176,10 +178,10 @@ div.footer-img {
 }
 
 img.footer-logo-bc {
-  position:absolute;
-  transform: translateY(25%);
-  width: 40%;
-  left: 40%;
+  transform: translateY(60%);
+  left: 0;
+  width: 60%;
+  left: 60%;
 }
 
 h4.title-footer {
@@ -194,7 +196,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #FA944B;
+  color: #F282A7;
   text-decoration: none;
 }
 
@@ -287,4 +289,8 @@ background-color: #BDF2E3;
 
 hr.line {
   background-color:#F282A7;
+}
+
+a.cop-footer {
+  font-weight: 750;
 }
