@@ -161,6 +161,21 @@ div.title-sobre {
   display: inline-block;
 }
 
+/*CAROUSEL*/
+
+div.img-crsl{
+  background-color:#BDF2E3 ;
+}
+div.img-home-crsl{
+  position: relative;
+
+}
+img.img-chakra-crsl {
+  /* position: absolute; */
+width:1498.89px ;
+height: 425px;
+}
+
 /*FOOTER*/
 
 footer {
